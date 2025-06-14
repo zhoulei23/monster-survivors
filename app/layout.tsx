@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Monster Survivors',
   description: 'A monster survival game',
+  verification: {
+    google: 'dyFdQmNnxJlWbchyIzDXmz2-3zidePiPojOvqgoThs0',
+  },
 }
 
 export default function RootLayout({
